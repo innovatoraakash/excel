@@ -1089,6 +1089,7 @@ class Sheet {
     }
 
     cell._value = value;
+    cell._cellStyle = CellStyle();
 
     if ((_maxColumns - 1) < columnIndex) {
       _maxColumns = columnIndex + 1;
